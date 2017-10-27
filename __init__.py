@@ -64,7 +64,7 @@ class TarasSkill(MycroftSkill):
 
 
     def handle_birthday_day_intent(self, message):
-        self.speak_dialog("hello.world")
+        self.speak_dialog("birth.day")
 
     # The "stop" method defines what Mycroft does when told to stop during
     # the skill's execution. In this case, since the skill's functionality
